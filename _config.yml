@@ -2,6 +2,7 @@ name: "Olaf's Blog"
 favicon: null
 layout_spectrum: 0.9404401879291981
 typography_spectrum: 0.6718715142924339
+title: "Olaf's Homepage"
 cta:
   domain: null
   bucket: null
