@@ -1,29 +1,41 @@
-name: "Olaf's Blog"
-favicon: null
-layout_spectrum: 0.9404401879291981
-typography_spectrum: 0.6718715142924339
 title: "Olaf's Homepage"
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.6832527529913932
+  brandStrength: 0.1552614525426179
+  rhythmicContrast: 0.9569926792755723
   brandColors:
     - '#1fabfa'
     - '#000000'
     - '#f90612'
     - '#ffffff'
     - '#585858'
-  brandStrength: 0.15526145254261792
   lightness: 0.2200359480921179
-  saturation: 0.6832527529913932
-  rhythmicContrast: 0.9569926792755723
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: "Olaf's Blog"
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.6718715142924339
+layout_spectrum: 0.7255319
